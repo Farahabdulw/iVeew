@@ -1,0 +1,72 @@
+0 verbose cli /home/iveew/.nvm/versions/node/v20.13.1/bin/node /home/iveew/.nvm/versions/node/v20.13.1/bin/npm
+1 info using npm@10.5.2
+2 info using node@v20.13.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/home/iveew/.nvm/versions/node/v20.13.1/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/iveew/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/home/iveew/.nvm/versions/node/v20.13.1/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 13ms
+16 timing npm:load:configload Completed in 13ms
+17 timing config:load:flatten Completed in 5ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm cache clean
+21 verbose argv "cache" "clean"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/home/iveew/.npm/_logs/2024-05-22T11_55_10_867Z-
+25 verbose logfile /home/iveew/.npm/_logs/2024-05-22T11_55_10_867Z-debug-0.log
+26 timing npm:load:logFile Completed in 9ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 55ms
+30 timing command:cache Completed in 1ms
+31 verbose stack Error: As of npm@5, the npm cache self-heals from corruption issues
+31 verbose stack   by treating integrity mismatches as cache misses.  As a result,
+31 verbose stack   data extracted from the cache is guaranteed to be valid.  If you
+31 verbose stack   want to make sure everything is consistent, use `npm cache verify`
+31 verbose stack   instead.  Deleting the cache can only make npm go slower, and is
+31 verbose stack   not likely to correct any problems you may be encountering!
+31 verbose stack
+31 verbose stack   On the other hand, if you're debugging an issue with the installer,
+31 verbose stack   or race conditions that depend on the timing of writing to an empty
+31 verbose stack   cache, you can use `npm install --cache /tmp/empty-cache` to use a
+31 verbose stack   temporary cache instead of nuking the actual one.
+31 verbose stack
+31 verbose stack   If you're sure you want to delete the entire cache, rerun this command
+31 verbose stack   with --force.
+31 verbose stack     at Cache.clean (/home/iveew/.nvm/versions/node/v20.13.1/lib/node_modules/npm/lib/commands/cache.js:113:15)
+31 verbose stack     at Cache.exec (/home/iveew/.nvm/versions/node/v20.13.1/lib/node_modules/npm/lib/commands/cache.js:96:27)
+31 verbose stack     at Cache.cmdExec (/home/iveew/.nvm/versions/node/v20.13.1/lib/node_modules/npm/lib/base-command.js:142:17)
+31 verbose stack     at Npm.exec (/home/iveew/.nvm/versions/node/v20.13.1/lib/node_modules/npm/lib/npm.js:136:20)
+31 verbose stack     at module.exports (/home/iveew/.nvm/versions/node/v20.13.1/lib/node_modules/npm/lib/cli-entry.js:61:15)
+32 verbose cwd /home/iveew
+33 verbose Linux 5.15.0-1058-aws
+34 verbose node v20.13.1
+35 verbose npm  v10.5.2
+36 error As of npm@5, the npm cache self-heals from corruption issues
+36 error   by treating integrity mismatches as cache misses.  As a result,
+36 error   data extracted from the cache is guaranteed to be valid.  If you
+36 error   want to make sure everything is consistent, use `npm cache verify`
+36 error   instead.  Deleting the cache can only make npm go slower, and is
+36 error   not likely to correct any problems you may be encountering!
+36 error
+36 error   On the other hand, if you're debugging an issue with the installer,
+36 error   or race conditions that depend on the timing of writing to an empty
+36 error   cache, you can use `npm install --cache /tmp/empty-cache` to use a
+36 error   temporary cache instead of nuking the actual one.
+36 error
+36 error   If you're sure you want to delete the entire cache, rerun this command
+36 error   with --force.
+37 verbose exit 1
+38 timing npm Completed in 374ms
+39 verbose code 1
+40 error A complete log of this run can be found in: /home/iveew/.npm/_logs/2024-05-22T11_55_10_867Z-debug-0.log

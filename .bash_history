@@ -111,3 +111,39 @@ screen -ls
 screen -rd 2906.iveew
 npm install react-chartjs-2 
 npm install react-chartjs-2 chart.js
+git status
+git init
+git add .
+git commit -m "21/5"
+git branch
+
+git push 
+git branch iveew
+git checkout iveew
+git push -u origin iveew
+npm install chart.js react-chartjs-2
+npm install chart.js
+npm cache clean 
+npm cache clean --force
+npm install chart.js react-chartjs-2
+npm install chart.js
+npm install chart.js react-chartjs-2
+ls
+cd ..
+cd var/www/html/
+ls
+cd iveew/
+ls
+npm install chart.js react-chartjs-2
+screen -ls
+screen -rd 2906.iveew
+ls
+npm run dev
+cd /var/www/html/
+ls
+cd iveew/
+ls
+screen -S iveew
+exit
+screen -ls
+screen -rd 2055.iveew
