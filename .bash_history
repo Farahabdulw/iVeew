@@ -147,3 +147,18 @@ screen -S iveew
 exit
 screen -ls
 screen -rd 2055.iveew
+git status
+git add .
+git commit -m "update 23/5"
+git push -u origin iveew
+cd /var/www/html/
+ls
+cd iveew/
+cd iveew
+exit
+cd /var/www/html/iveew/
+ls
+screen -ls
+screen -rd 2055.iveew
+screen -ls
+screen -rd  2055.iveew  
