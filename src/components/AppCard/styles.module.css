@@ -1,0 +1,75 @@
+
+  .bgblue {
+  background: linear-gradient(135deg, #fffffff5, #a7aab4, #ffffff98);
+  padding: 1px;
+  border-radius: 1.2rem;
+  box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
+  max-width: 300px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(135deg, #444547 0%, #7c7c80 43%, #838486 100%);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card ul {
+  padding: 2;
+}
+
+.card p {
+  padding-left: 29px; 
+  padding-bottom: 5px;
+  padding-top: 16px;
+}
+
+
+.card span {
+  padding-bottom: 4px;
+}
+
+.card h2 {
+  font-weight: 600;
+  color: #ed9255;
+}
+
+.card .checkmark {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card .checkmark::before {
+  content: '\2713';
+  color: #ed9255;
+}
+
+.card .footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: small;
+}
+.card a {
+  color: #ed9255; 
+  text-decoration: none; 
+  position: relative;
+  font-size: small;
+  font-weight: 500;
+}
+
+.card a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background-color: #ca6f32; 
+}

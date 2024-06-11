@@ -1,0 +1,41 @@
+/* styles.module.css */
+
+.pageContainer {
+  background-color: #D2D3CF;
+  min-height: 100vh;
+  overflow-y: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.chartWrapper {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chartContainer {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .chartContainer {
+    width: 90%;
+    margin: 0 10px; /* Adds some margin on mobile for better spacing */
+  }
+}

@@ -1,0 +1,154 @@
+/* styles/Signup.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #D2D3CF;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  justify-content: center;
+  width: 100%;
+}
+
+.formContainer {
+  padding: 34px;
+  border: 1px solid gray;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  /* background-color: #f9f9f9; */
+  background-color: #e9ecef;
+  margin-right: 20px;
+  z-index: 10;
+  position: relative;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 504px;
+  width: 100%;
+  height: fit-content;
+}
+
+.input,
+.select {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 9.5px;
+}
+
+.nameFields {
+  display: flex;
+  gap: 1rem;
+}
+
+.passwordRequirements {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.passwordRequirements ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+.createAccountButton {
+  padding: 0.5rem 1rem;
+  background-color: #e76044;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border-radius: 9.5px;
+  margin-top: 8px;
+}
+
+.forgotPasswordLink,
+.signInLink {
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+.links a {
+  margin-right: 3rem; /* Adjust as needed */
+  color: gray;
+}
+
+.welcomeBox {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  /* background-color: #f9f9f9; */
+}
+
+.welcomeBox h2 {
+  margin-bottom: 36px;
+  color: #e76042;
+  font-weight: bold;
+  border-bottom: 2px solid #e76042; 
+}
+
+.welcomeBox a {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  color: gray;
+  margin-top: 23px;
+}
+
+.imgStyle {
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 715px) {
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formContainer {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .input,
+  .select,
+  .createAccountButton,
+  .forgotPasswordLink,
+  .signInLink {
+    margin-bottom: 1rem;
+  }
+
+  .links a {
+    margin-right: 0.5rem;
+  }
+
+  .welcomeBox {
+    margin-top: 1rem;
+    width: 100%; /* Set the width to 100% */
+  }
+}

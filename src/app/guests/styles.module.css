@@ -1,0 +1,16 @@
+/* styles.module.css */
+
+.pageContainer {
+    background-color: #D2D3CF;
+    min-height: 100vh;
+    overflow-y: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+

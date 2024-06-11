@@ -1,0 +1,83 @@
+/* styles.module.css */
+
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  overflow-y: auto;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  max-width: 90%;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8.5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  background: #ffffff7d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputField {
+  margin-bottom: 11px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 8.5px;
+  background: #ffffff7d;
+}
+
+.nameFields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nameField {
+  padding: 10px;
+  width: 100%;
+}
+
+.firstNameField {
+  margin-bottom: 11px;
+}
+
+.selectField {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  background: #ffffff7d;
+}
+
+.applicationsSection {
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  padding: 10px;
+  background: linear-gradient(135deg, #444547 0%, #7c7c80 43%, #838486 100%);
+  border-radius: 8.5px;
+  color: #ed9255;
+  border: 1px solid #ed9255;
+  font-size: larger;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .formContainer {
+    max-width: 500px;
+    padding: 33px;
+  }
+
+  .nameFields {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+ 
+}
